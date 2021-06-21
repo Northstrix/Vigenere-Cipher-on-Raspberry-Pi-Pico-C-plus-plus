@@ -53,7 +53,7 @@ String get_decryption(String ct, String k){
 
 void setup() {
   Serial.begin(115200);
-  lcd.begin(24,2);  /* Initialize 16x2 LCD */
+  lcd.begin(16,2);  /* Initialize 16x2 LCD */
   lcd.clear();  /* Clear the LCD */
 }
 
